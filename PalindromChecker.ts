@@ -8,7 +8,8 @@ const rl = readline.createInterface({
 rl.question("Wort eingeben:", function(eingabe: string) {
 
   const eingabeNormalisiert = eingabe.trim().toLowerCase();
-  if (eingabeNormalisiert.length === 0) {
+  const laenge = eingabeNormalisiert.length;
+  if (laenge === 0) {
 
     console.log(`Kein Wort zum Überprüfen eingegeben, Abbruch!`);
 
