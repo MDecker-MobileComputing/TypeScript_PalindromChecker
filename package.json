@@ -1,0 +1,8 @@
+{
+  "name": "typescript-palindromchecker",
+  "version": "1.0.0",
+  "description": "Einfache TypeScript-App für Übungsaufgabe",
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  }
+}
