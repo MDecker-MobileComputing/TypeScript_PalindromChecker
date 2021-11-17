@@ -7,15 +7,14 @@ const rl = readline.createInterface({
 
 rl.question("Wort eingeben:", function(eingabe: string) {
 
-  const eingabeTrimmed = eingabe.trim();
-
-  if (eingabeTrimmed.length === 0) {
+  const eingabeNormalisiert = eingabe.trim().toLowerCase();
+  if (eingabeNormalisiert.length === 0) {
 
     console.log(`Kein Wort zum Überprüfen eingegeben, Abbruch!`);
 
   } else {
 
-    console.log(`Sollte jetzt überprüfen, ob "${eingabeTrimmed}" ein Palindrom ist oder nicht ...`);
+    console.log(`Sollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...`);
 
   }
   rl.close();
