@@ -1,4 +1,4 @@
-/* 
+/*
  * This file is licensed under the terms of the BSD 3-Clause License.
  */
 
@@ -10,20 +10,21 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("Wort eingeben:", function(eingabe: string) {
+rl.question("\nWort eingeben > ", function(eingabe: string) {
 
   const eingabeNormalisiert = eingabe.trim().toLowerCase();
   const laenge = eingabeNormalisiert.length;
   if (laenge === 0) {
 
-    console.log(`Kein Wort zum Überprüfen eingegeben, Abbruch!`);
+    console.log("Kein Wort zum Überprüfen eingegeben, Abbruch!\n");
 
   } else {
 
-    console.log(`Sollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...`);
+    /* ****** Ab hier ergänzen ****************************************************************** */
 
+    console.log(`Sollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...\n`);
+
+    /* ****************************************************************************************** */
   }
   rl.close();
 });
-
-console.log();
