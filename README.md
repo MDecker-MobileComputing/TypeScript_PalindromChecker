@@ -7,6 +7,23 @@ Once completed, the program has to check if the word entered by the user is a [p
 <br>
 
 ----
+## Usage ##
+
+**Prerequisite:**
+Ensure that [node-ts](https://www.npmjs.com/package/ts-node) is installed; for this you can enter `ts-node --version`. If is is not installed, then you can install it with the following command:
+```
+npm install -g ts-node
+```
+
+<br>
+
+* Clone or download this repository.
+* Execute `npm install` in the folder.
+* Run the program with `ts-node PalindromChecker.ts`.
+
+<br>
+
+----
 ## License ##
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
