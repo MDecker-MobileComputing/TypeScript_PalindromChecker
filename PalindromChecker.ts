@@ -22,7 +22,7 @@ rl.question("\nWort eingeben > ", function(eingabe: string) {
 
     /* ****** Ab hier ergänzen ****************************************************************** */
 
-    console.log(`Sollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...\n`);
+    console.log(`\nSollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...\n`);
 
     /* ****************************************************************************************** */
   }
