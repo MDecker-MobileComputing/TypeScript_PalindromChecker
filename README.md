@@ -1,5 +1,7 @@
 # Palindrom-Checker mit TypeScript #
 
+<br>
+
 The [TypeScript file](PalindromChecker.ts) contained in this repository is to be completed as exercise.
 Once completed, the program has to check if the word entered by the user is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
 
@@ -9,6 +11,8 @@ You can use the JavaScript code in [this function](https://github.com/MDecker-Mo
 
 ----
 ## Usage ##
+
+<br>
 
 **Prerequisite:**
 Ensure that [node-ts](https://www.npmjs.com/package/ts-node) is installed; for this you can enter `ts-node --version`. If is is not installed, then you can install it with the following command:
@@ -25,7 +29,12 @@ npm install -g ts-node
 <br>
 
 ----
+
 ## License ##
+
+<br>
 
 See the [LICENSE file](LICENSE.md) for license rights and limitations (BSD 3-Clause License)
 for the files in this repository.
+
+<br>
