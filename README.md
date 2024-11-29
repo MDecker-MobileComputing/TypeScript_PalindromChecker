@@ -3,7 +3,7 @@
 <br>
 
 The [TypeScript file](PalindromChecker.ts) contained in this repository is to be completed as exercise.
-Once completed, the program has to check if the word entered by the user is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
+Once completed, the program can check if the word entered by the user is a [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
 
 You can use the JavaScript code in [this function](https://github.com/MDecker-MobileComputing/HTML_BootstrapUndJQuery/blob/master/docs/PalindromChecker/meinCode.js#L15-L37) as reference for the algorithmn.
 
