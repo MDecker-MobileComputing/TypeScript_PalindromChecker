@@ -10,11 +10,11 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question("\nWort eingeben > ", function(eingabe: string) {
+rl.question("\nWort eingeben > ", function( eingabe: string ) {
 
   const eingabeNormalisiert = eingabe.trim().toLowerCase();
   const laenge = eingabeNormalisiert.length;
-  if (laenge === 0) {
+  if ( laenge === 0 ) {
 
     console.log("Kein Wort zum Überprüfen eingegeben, Abbruch!\n");
 
@@ -22,9 +22,10 @@ rl.question("\nWort eingeben > ", function(eingabe: string) {
 
     /* ****** Ab hier ergänzen ****************************************************************** */
 
-    console.log(`\nSollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...\n`);
+    console.log( `\nSollte jetzt überprüfen, ob "${eingabeNormalisiert}" ein Palindrom ist oder nicht ...\n` );
 
     /* ****************************************************************************************** */
   }
+
   rl.close();
 });
